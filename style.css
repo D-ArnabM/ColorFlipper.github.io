@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header li,a,h4{
+    font-family:"Azeret-Mono", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8%;
+    background-color: rgb(0, 32, 61);
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links  li{
+    display:  inline-block;
+    padding: 0px,20px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+    margin: 0px 3px;
+}
+.nav-links li a:hover{
+    color:rgb(61, 214, 0);
+    text-shadow: 0px 0.5px 4px rgb(81, 255, 0);
+}
+.nav-name  a{
+    transition: all 0.3s ease 0s;
+    color: rgb(61, 214, 0);
+    font-family:"Azeret-Mono", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(61, 214, 0);
+    text-decoration: none;
+}
+.nav-name a:hover{
+    color: rgb(255,251,0);
+    text-shadow: 0px 0px 4px rgb(255, 230, 0);
+}
+.color-container{
+    font-family:"Azeret-Mono", sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+.changer-btn{
+    font-family:"Azeret-Mono", sans-serif;
+    font-weight: 500;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    color: white;
+}
+button{
+    margin-top: 30px ;
+    padding: 10px 25px;
+    border: none;
+    background-color: rgb(61,214,0);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(81, 255, 0);
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+button:hover{
+    background-color: rgb(255,251,0);
+    box-shadow: 0px 0px 10px rgb(255,251,0);
+}
+
+.modeName{
+    display: grid;
+    place-content: center;
+}
+.modeName h6{
+    font-family:"Azeret-Mono", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 30px;
+    text-shadow: 0px 3px 10px rgb(92, 92, 92);
+}
